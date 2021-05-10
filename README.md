@@ -1,7 +1,7 @@
 # Keyboard Simulator
 
 ### What is this?
-- This is a keyboard simulator built with python, every keystroke will play a key sound
+- This is a keyboard simulator built with python, every keystroke will play a cherry mx blue key sound
 
 ### How to execute
   ### Linux and MacOS
