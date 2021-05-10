@@ -23,7 +23,7 @@ def on_press(key):
 		sound = choice(enter_down_sounds)
 	else:
 		sound = choice(down_sounds)
-	PlaySound(sound, "1").start()
+	PlaySound(sound, "0.2").start()
 def on_release(key):
 	if key == Key.space:
 		sound = choice(space_up_sounds)
@@ -33,7 +33,7 @@ def on_release(key):
 		sound = choice(enter_up_sounds)
 	else:
 		sound = choice(up_sounds)
-	PlaySound(sound, "1").start()
+	PlaySound(sound, "0.2").start()
 
 # Collect events until released
 with keyboard.Listener(
