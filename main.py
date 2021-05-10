@@ -2,7 +2,7 @@ from random import choice
 from pynput import keyboard
 from pynput.keyboard import Key
 from play_sound import PlaySound
-from sounds import *
+from sounds_mp3 import *
 
 down_sounds = [alpha_down1, alpha_down2, alpha_down3, alpha_down4, alpha_down5, alpha_down6, alpha_down7, alpha_down8]
 up_sounds = [alpha_up1, alpha_up2, alpha_up3, alpha_up4, alpha_up5, alpha_up6, alpha_up7, alpha_up8, alpha_up9]
