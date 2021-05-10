@@ -2,6 +2,7 @@
 
 ### What is this?
 - This is a keyboard simulator built with python, every keystroke will play a cherry mx blue key sound
+- This is based on the <a href="https://mechakeys.robolab.io/">MechaKeys</a> app sounds, but it doesn't contain a gui, it's just a python executable file
 
 ### How to execute
   ### Linux and MacOS
