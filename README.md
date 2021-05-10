@@ -9,7 +9,7 @@ This is a keyboard simulator built with python, every keystroke will play a key 
   ### Windows
   - On windows it's a bit different, download the source code on the <a href="https://github.com/Maxix25/keyboard-simulator/releases/" target="_blank">releases</a> page
   - Unzip the file
-  - Edit the play_sound.py file line 16 (```cmd = 'play -v ' + self.volume + ' ' + self.filename```) and change it to (```cmd = 'play -v ' + self.volume + ' ' + self.filename + " -t waveaudio")
+  - Edit the play_sound.py file line 16 ```cmd = 'play -v ' + self.volume + ' ' + self.filename``` and change it to ```cmd = 'play -v ' + self.volume + ' ' + self.filename + " -t waveaudio"```
   - Run the main.py file using ```python main.py```
   - Enjoy your app!
 ### Dependencies
