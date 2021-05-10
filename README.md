@@ -16,3 +16,7 @@
   - Enjoy your app!
 ### Dependencies
   - The only dependency is <a href="https://pypi.org/project/pynput/" target="_blank">pynput</a>, which you can install it by using ```pip install -r requirements.txt``` or ```pip install pynput```
+
+### Credits
+  - The sounds where grabbed from the <a href="https://mechakeys.robolab.io/">MechaKeys</a> app
+  - The play_sound.py was grabbed from <a href="https://github.com/skkeeper/linux-clicky/blob/master/linux_clicky/play_sound.py">Linux Clicky</a>
