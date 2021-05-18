@@ -5,7 +5,7 @@
 - This is based on the <a href="https://mechakeys.robolab.io/">MechaKeys</a> app sounds, but it doesn't contain a GUI, it's just a python executable file
 
 ### How to execute
-  ### Linux and MacOS
+  ### Linux
   - Download the source code on the <a href="https://github.com/Maxix25/keyboard-simulator/releases/" target="_blank">releases</a> page
   - Unzip the file and execute the main.py using ```python3 main.py```
   - Enjoy your app!
