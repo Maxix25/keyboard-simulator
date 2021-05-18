@@ -21,5 +21,5 @@
 ### SOX
   - To install SOX on Linux use ```sudo pacman -S sox``` on Arch Linux, ```sudo apt install sox``` on Ubuntu, ```sudo dnf install sox``` on Fedora
 ### Credits
-  - The sounds where grabbed from the <a href="https://mechakeys.robolab.io/">MechaKeys</a> app
+  - The sounds were grabbed from the <a href="https://mechakeys.robolab.io/">MechaKeys</a> app
   - The play_sound.py was grabbed from <a href="https://github.com/skkeeper/linux-clicky/blob/master/linux_clicky/play_sound.py">Linux Clicky</a>
