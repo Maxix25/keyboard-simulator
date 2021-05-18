@@ -15,9 +15,11 @@
   - Edit the play_sound.py file line 16 ```cmd = 'play -v ' + self.volume + ' ' + self.filename``` and change it to ```cmd = 'play -v ' + self.volume + ' ' + self.filename + " -t waveaudio"```
   - Run the main.py file using ```python main.py```
   - Enjoy your app!
-### Dependencies
-  - The only dependency is <a href="https://pypi.org/project/pynput/" target="_blank">pynput</a>, which you can install it by using ```pip install -r requirements.txt``` or ```pip install pynput```
-
+# Dependencies
+### Pynput
+  - To install pynput use ```pip3 install -r requirements.txt``` or ```pip3 install pynput```
+### SOX
+  - To install SOX on Linux use ```sudo pacman -S sox``` on Arch Linux, ```sudo apt install sox``` on Ubuntu, ```sudo dnf install sox``` on Fedora
 ### Credits
   - The sounds where grabbed from the <a href="https://mechakeys.robolab.io/">MechaKeys</a> app
   - The play_sound.py was grabbed from <a href="https://github.com/skkeeper/linux-clicky/blob/master/linux_clicky/play_sound.py">Linux Clicky</a>
