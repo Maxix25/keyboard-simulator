@@ -26,9 +26,9 @@ def on_press(key):
 		sound = choice(down_sounds)
 	PlaySound(sound, volume).start()
 def on_release(key):
-	if key == Key.space:
+	if key == Key.space or key == Key.backspace:
 		sound = choice(space_up_sounds)
-	if key == Key.alt:
+	if key == Key.alt or key == Key.ctrl:
 		sound = choice(alt_up_sounds)
 	elif key == Key.enter:
 		sound = choice(enter_up_sounds)
