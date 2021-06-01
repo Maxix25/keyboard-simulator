@@ -15,6 +15,9 @@
   - Edit the play_sound.py file line 16 ```cmd = 'play -v ' + self.volume + ' ' + self.filename``` and change it to ```cmd = 'play -v ' + self.volume + ' ' + self.filename + " -t waveaudio"```
   - Run the main.py file using ```python main.py```
   - Enjoy your app!
+# Choose sound
+  - To choose the sound you want you can go to the sounds.py file and edit the ```sound_name``` variable and set it to what sound you want, you can also change the sound format changing the variable ```sound_extension``` on sounds.py
+
 # Dependencies
 ### Pynput
   - To install pynput use ```pip3 install -r requirements.txt``` or ```pip3 install pynput```
