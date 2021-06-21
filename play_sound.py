@@ -19,4 +19,4 @@ class PlaySound(Thread):
     p.wait()
     if p.returncode != 0:
       print ('\033[1;31mWe found a error with SoX, did you install it?\033[1;m')
-      p.stderr.read()
+      print(p.stderr.read())
