@@ -13,7 +13,7 @@ class PlaySound(Thread):
     self.volume = volume
 
   def run(self):
-    cmd = 'play -v ' + self.volume + ' ' + self.filename
+    cmd = 'play -v ' + self.volume + ' ' + f"'{self.filename}'"
     p = Popen(cmd, shell=True, stderr=PIPE, close_fds=True)
     # TODO: Test if limits the number of clicks
     p.wait()

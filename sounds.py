@@ -1,6 +1,6 @@
 # sound_name = "sp_cmxb_mp3"
 import os
-sound_name = "sp_cmxb_mp3"
+sound_name = "sp_gatblk"
 if sound_name == "sp_cmxb_mp3":
 	volume = "0.13"
 else:
