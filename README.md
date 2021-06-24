@@ -22,7 +22,7 @@
 ### SOX (Linux Only)
   - To install SOX on Linux use ```sudo pacman -S sox``` on Arch Linux, ```sudo apt install sox``` on Ubuntu, ```sudo dnf install sox``` on Fedora
 ### Playsound (Windows Only)
-  - To install Playsound on Windows use ```pip install -r requirements.txt``` or use ```pip install playsound```
+  - To install Playsound on Windows use ```pip install -r windows_requirements.txt``` or use ```pip install playsound```
 ### Credits
   - The sounds were grabbed from the <a href="https://mechakeys.robolab.io/">MechaKeys</a> app
   - The play_sound.py was grabbed from <a href="https://github.com/skkeeper/linux-clicky/blob/master/linux_clicky/play_sound.py">Linux Clicky</a>
