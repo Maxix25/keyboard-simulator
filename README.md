@@ -1,10 +1,10 @@
 # Keyboard Simulator
 
-### What is this?
+# What is this?
 - This is a keyboard simulator built with python, every keystroke will play a cherry mx blue key sound
 - This is based on the <a href="https://mechakeys.robolab.io/">MechaKeys</a> app sounds, but it doesn't contain a GUI, it's just a python executable file
 
-### How to execute
+# How to execute
   ### Linux
   - Download the source code on the <a href="https://github.com/Maxix25/keyboard-simulator/releases/" target="_blank">releases</a> page
   - Unzip the file
