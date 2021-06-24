@@ -19,9 +19,9 @@
 # Dependencies
 ### Pynput
   - To install pynput use ```pip3 install -r requirements.txt``` or ```pip3 install pynput```
-### SOX
+### SOX (Linux Only)
   - To install SOX on Linux use ```sudo pacman -S sox``` on Arch Linux, ```sudo apt install sox``` on Ubuntu, ```sudo dnf install sox``` on Fedora
-### Playsound (Only for Windows)
+### Playsound (Windows Only)
   - To install Playsound on Windows use ```pip install -r requirements.txt``` or use ```pip install playsound```
 ### Credits
   - The sounds were grabbed from the <a href="https://mechakeys.robolab.io/">MechaKeys</a> app
