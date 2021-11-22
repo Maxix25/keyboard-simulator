@@ -11,7 +11,7 @@ def on_press(key):
 	if key == Key.space or key == Key.backspace:
 		sound = choice(space_down_sounds)
 		sound_type = "space/down/"
-	elif key == Key.alt or key == Key.ctrl:
+	elif key == Key.alt or key == Key.ctrl or key == Key.esc or key == Key.alt_r or key == Key.tab:
 		sound = choice(alt_down_sounds)
 		sound_type = "alt/down/"
 	elif key == Key.enter:
